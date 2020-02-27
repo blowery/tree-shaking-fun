@@ -7,5 +7,12 @@
   "dependencies": {
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build-dev": "NO_MINIFY=true webpack",
+    "build-separate": "webpack --config=webpack.config-index.js; webpack --config=webpack.config-one.js; webpack --config=webpack.config-two.js",
+    "build-separate-dev": "NO_MINIFY=true webpack --config=webpack.config-index.js; NO_MINIFY=true webpack --config=webpack.config-one.js; NO_MINIFY=true webpack --config=webpack.config-two.js"
+    
   }
 }
