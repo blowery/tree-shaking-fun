@@ -1,0 +1,11 @@
+{
+  "name": "tree-shaking-fun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ben Lowery <ben.lowery@automattic.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
